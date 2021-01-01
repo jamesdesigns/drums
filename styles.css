@@ -1,9 +1,6 @@
 html {
     font-size: 10px;
-    background: #ff8a00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #da1b60, #ff8a00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #da1b60, #ff8a00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    transition: all 0.3s ease;
+    background-image: url('drums-bg.jpeg');  
     background-size: cover;
   }
   
@@ -31,7 +28,7 @@ html {
     width: 10rem;
     text-align: center;
     color: white;
-    background: rgba(0,0,0,0.4);
+    background-color: dodgerblue;
     text-shadow: 0 0 .5rem black;
   }
   
